@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 
 *{
     margin: 0;
@@ -9,8 +9,9 @@
     --vermelho: #8E2424;
     --preto-titulo: #3A404E;
     --branco: #FFFFFF;
+    --preto: #101828;
 
-    --text-font: 'Montserrat', sans-serif;
+    --text-font: 'Inter', sans-serif;
 }
 .cabecalho{
     display: flex;
@@ -81,6 +82,69 @@
     font-weight: 600;
 }
 .sobre__texto{
+    color: var(--text-color);
     font-family: var(--text-font);
     font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
 }
+.metrica{
+    display: flex;
+    margin-left: 7.625rem;
+    margin-right: 7.625rem;
+    height: 18rem;
+}
+.metrica__conteudo{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.metrica__conteudo__numero{
+    color: var(--vermelho);
+    font-weight: 600;
+    font-size: 3.75rem;
+    font-family: var(--text-font);
+    padding-bottom: 0.75rem;
+
+}
+.metrica__conteudo__titulo{
+    font-family: var(--text-font);
+    color: var(--preto);
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    padding-bottom: 0.5rem;
+
+}
+.metrica__conteudo__texto{
+    font-family: var(--text-font);
+    color: var(--text-color);
+}
+.vagas__apresentacao{
+    padding-top: 6.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+}
+.vagas__apresentacao__texto{
+    padding-bottom: 4rem;
+}
+.vagas__apresentacao__subtitulo{
+    color: var(--vermelho);
+    font-family: var(--text-font);
+    font-weight: 500;
+    font-size: 14px;
+}
+.vagas__apresentacao__titulo{
+    color: var(--preto);
+    font-family: var(--text-font);
+    font-weight: 600;
+    font-size: 32px;
+}
+.vagas__imagem__reuniao{
+    color: var(--text-color);
+    font-size: 20px;
+    line-height: 30px;
+}
+
